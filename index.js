@@ -9,10 +9,11 @@ const path = require("path");
 
 //Create connection
 const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "nodemysql",
+  host: "db4free.net",
+  port: "3306",
+  user: "tmysqlservice",
+  password: "tmysqlservice",
+  database: "tmysql_service",
 });
 
 db.connect(function (err) {
